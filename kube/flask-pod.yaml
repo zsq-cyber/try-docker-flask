@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: flask
-    image: zsq89/try-flask:latest
+    image: zsq89/try-flask:v0
     ports:
     - containerPort: 5000
