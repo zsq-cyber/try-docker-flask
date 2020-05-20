@@ -6,4 +6,4 @@ def hello_world():
     return 'This is running in a dockerized app on DigitalOcean kubernetes cluster!'
 
 if __name__ == "__main__":
-    app.run(debug=True, host='localhost')
+    app.run(debug=True, host='0.0.0.0')
